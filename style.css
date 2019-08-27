@@ -1,0 +1,125 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+header{
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(C:/Users/Jaskirat/Desktop/Jquery/WEB/b1.webp);
+	height: 657px;
+}
+
+ul{
+	float: right;
+	list-style: none;
+	margin-top: 25px; 
+}
+ul li{
+	display: inline-block;
+	margin-right: 25px;
+}
+
+ul li a{
+	text-decoration: none;
+	color: #fff;
+	padding: 5px 25px;
+	border: 1px solid #fff;
+	transition: 0.4s ease;
+}
+
+ul li a:hover{
+	background-color: white;
+	color: black;
+	cursor: pointer;
+	border:white;
+}
+.sublist{
+	list-style: none;
+	position: absolute;
+	display: none;
+	margin: 1px;
+
+}
+ul li:hover .sublist{
+	display: block;
+		}
+ .sublist li{ 	
+ 	display: block;
+ 	color: black;
+ 	border: 1px white solid;
+ 	padding: 5px 20px;
+ }
+
+.title{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform:translate(-50%,-50%);
+}
+.title h1{
+	color: #fff;
+	font-size: 50px;
+	letter-spacing: 1px;
+}
+.button{
+	position: absolute;
+	top: 60%;
+	left: 50%;
+	transform:translate(-50%,-50%);
+
+}
+.btn{
+	text-decoration: none;
+	border: 1px solid #fff;
+	font-size: 20px;
+	color: #fff;
+	padding: 10px 30px;
+	transition: 0.4s ease;y
+}
+.btn:hover{
+	background-color: white;
+	color: black;
+	cursor: pointer;
+	border:white;
+
+
+}
+.logo h1{
+	color: white;
+	border: 2px solid white;
+	letter-spacing: 10px;
+	padding: 4px 25px;
+	border-left: none;
+	border-right: none;
+	position: absolute;
+	margin: 17px 40px;
+	animation: abc infinite .5s;
+
+}
+@keyframes abc
+{
+	0%{
+		border-color: white;
+		position: absolute;
+		
+	}
+	25%{
+		border-color: black;
+		position: absolute;
+		
+	}
+	50%{
+		border-color: gray;
+		position: absolute;
+		
+	}
+	75%{
+		border-color: darkgray;
+		position: absolute;
+		
+	}
+	100%{
+		border-color: white;
+		position: absolute;
+		
+	}
+}
